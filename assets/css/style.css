@@ -947,7 +947,7 @@ figcaption {
   transition: all 0.2s ease 0.5s;
 }
 .article.portfolio-item:hover figcaption {
-  background: none repeat scroll 0 0 #FF0044;
+  background: none repeat scroll 0 0 black;
   display: block;
   bottom: 0;
   height: auto;
