@@ -10,11 +10,11 @@ jQuery(document).ready(function($) {
 	    $(this).append('<div class="ajax-progress ajax-progress-throbber"><div class="throbber">&nbsp;</div></div>');
 	    
 	    var $post_id = $(this).attr('id');
-		
+		console.log($post_id);
 			// Show that we're working.
 			$('#project-info').html('<div class="text-center"><div class="ajax-progress ajax-progress-throbber"><div class="throbber">&nbsp;</div></div></div>');
       
-      $('#project-info').load("?p=" + $post_id + ' #content',
+      $('#project-info').load("?p=" + $post_id + ' #content-'+$post_id,
         function() {
           
           $("html, body, .page-section-current").animate({ scrollTop: "0" },1000);
