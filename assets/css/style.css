@@ -64,7 +64,7 @@
 } 
 .go-back .back {
   float: left; 
-  margin-left: 14px; 
+  margin-left: -15px; 
   margin-right: 12px;
   margin-top: 21px;
   cursor: pointer;
@@ -300,7 +300,7 @@
   font-size: 22px;
   font-weight: 300;
   text-shadow: 1px 0 1px rgb(0 0 0 / 20%);
-  /* background: rgba(0, 0, 0, 0.4); */
+  background: rgba(0, 0, 0, 0.4);
   margin: 0 0 -18px -15px;
   padding: 6px 6px 8px 15px;
   text-align: left;
@@ -947,7 +947,7 @@ figcaption {
   transition: all 0.2s ease 0.5s;
 }
 .article.portfolio-item:hover figcaption {
-  background: none repeat scroll 0 0 black;
+  background: none repeat scroll 0 0 #FF0044;
   display: block;
   bottom: 0;
   height: auto;
