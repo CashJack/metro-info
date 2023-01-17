@@ -1096,7 +1096,7 @@ textarea:focus {
   font-size: 18px;
   margin: 0 0 -18px -15px;
   padding: 6px 6px 8px 15px;
-  text-align: left;
+  text-align: right;
   width: 100%;
   /*bottom: -18px;*/
   transition: all 0.2s cubic-bezier(1.000, -0.410, 0.840, 1.015) 0s;
